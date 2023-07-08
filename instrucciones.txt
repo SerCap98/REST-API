@@ -8,9 +8,11 @@
 
 NOTA:Previamente se instalaron dependencias entre las que se encuentran aquellas que permiten establecer conexion con bases de datos tales como Postgres y MySQL, en caso de usar una base de datos diferente a las ya mencionadas debera de realizar la instalacion de la dependencias necesarias dentro del entorno virtual tambien previamente instalado.
 
-5)Finalmente debera de iniciar la API con el siguiente comando: python manage.py runserver
+5)Realizar la migracion de las tablas a su base de datos con el comando : python manage.py migrate
 
-6)Tendra acceso a la documentacion de la api a traves de las siguientes URL:
+6)Finalmente debera de iniciar la API con el siguiente comando: python manage.py runserver
+
+7)Tendra acceso a la documentacion de la api a traves de las siguientes URL:
 
   -Swagger: http://localhost:8000/swagger/
   -Redoc: http://localhost:8000/redoc/
